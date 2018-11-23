@@ -1,0 +1,12 @@
+.palette {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.palette > div {
+    height: 2rem;
+    width: 2rem;
+}
+.palette > div + div {
+    margin-left: 1rem;
+}
